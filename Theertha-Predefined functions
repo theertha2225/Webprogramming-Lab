@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>predifined functions in string and math</title>
+</head>
+<body bgcolor="pink">
+<script>
+document.write("<h2>Predifined functions in string and maths</h2>");
+
+var ab="helloworld"
+document.write("converting helloworld to uppercase:"+ab.toUpperCase());
+document.write("<br>")
+
+var cd="HELLOWORLD"
+document.write("converting helloworld to lowercase:"+ab.toLowerCase());
+document.write("<br>")
+
+var num=Math.round(4.5)
+document.write("rounding a number"+num);
+document.write("<br>")
+
+var power=Math.pow(3,2);
+document.write("<br>Math.pow(3,2)gives:"+power)
+document.write("<br>")
+
+var str="happiness"
+document.write("The length of the string is :"+str.length);
+document.write("<br>")
+
+var a=56.98
+var x=Math.ceil(a)
+document.write("<br> value of "+a+" after using Math.ceil is:"+x);
+document.write("<br>")
+
+</script>
+</body>
+</html>
